@@ -1,0 +1,262 @@
+
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+.BodyDiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   overflow: hidden;
+   background: #cfd1e1;
+}
+.containerLogIn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.containerLogIn .BoxLogin{
+  position: relative;
+  width: 400px;
+  height: 680px;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.containerLogIn .BoxLogin::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 25px;
+   height: 100%;
+   background: linear-gradient(white,white,#e3e3e3) ;
+filter: blur(1px);
+z-index: 1;
+}
+.containerLogIn .BoxLogin::after{
+   content: "";
+   position: absolute;
+   top: 1px;
+   right: -1px;
+   width: 25px;
+   height: 100%;
+   background: #9d9d9d ;
+filter: blur(1px);
+z-index: 1;
+}
+.containerLogIn .BoxLogin .shadow{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: #eee;
+}
+.containerLogIn .BoxLogin .shadow::before{
+content: "";
+position: absolute;
+top: 0;
+left: calc(100% + 314px);
+height: calc(200% + 630px);
+width: calc(100% + 270px);
+background: linear-gradient(rgba(0,0,0,0.075),transparent);
+transform: skewX(45deg);
+}
+.containerLogIn .BoxLogin .shadow::after{
+content: "";
+position: absolute;
+bottom: -200%;
+left: calc(100% + 280px);
+height: 200%;
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.075),transparent);
+transform: skewX(45deg);
+}
+.cover{
+   position: absolute;
+   top: 0;
+   left: -280px;
+   width: 279px;
+   height: 280px;
+   background: #cfd1e1;
+   z-index: 10;
+}
+.content{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(#dbdae1,#a3aaba);
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.1), 
+   15px 15px 15px rgba(0,0,0,0.1), 
+   20px 10px 20px rgba(0,0,0,0.1), 
+   50px 50px 80px rgba(0,0,0,0.25),
+   inset 3px 3px 2px #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content .formLogin{
+   position: relative;
+   width: 260px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   bottom: 40px;
+}
+.logo{
+   width: 70px;
+   height: 70px;
+   background: fff;
+   color: #fff;
+   font-size: 1.75em;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.content .formLogin h2 {
+   font-size: 2em;
+   color: #0f172a;
+   margin-bottom: 20px;
+}
+.content .formLogin .inputBox{
+   position: relative;
+   width: 100%;
+   margin-top: 30px;  
+}
+.content .formLogin .inputBox input{
+   position: relative;
+   width: 100%;
+   padding: 10px 0 10px 25px; 
+   font-size: 1.25em;
+   background: transparent;  
+   box-shadow: none;
+   border: none;
+   border-bottom: 3px solid #0f172a;
+   outline: none;
+   color: #0f172a;
+}
+.content .formLogin .inputBox img{
+   position: absolute;
+   left: 0;
+   bottom: 15px;
+   font-size: 1.25em;
+  
+}
+.content .formLogin .inputBox span {
+   position: absolute;
+   left: 0;
+   padding: 10px 0 10px 25px; 
+   font-size: 1.25em;
+   pointer-events: none;
+   color: #0f172a;
+   transition: 0.5s;
+}
+.content .formLogin .inputBox input:focus ~ span,
+.content .formLogin .inputBox input:valid ~ span{
+transform: translateY(-20px);
+font-size: 0.9em;
+background: #0f172a;
+color: white;
+padding: 2px 4px;
+}
+.content .formLogin .links{
+   width: 100%;
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+.content .formLogin .links p{
+   color: #0f172a;
+   text-decoration: none;
+}
+.content .formLogin .inputBox input[type="submit"]{
+   background: #0f172a;
+   color: #fff;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 12px;
+}
+.content .formLogin .inputBox input[type="submit"]:hover{
+   box-shadow: 0 3px 4px 0 #0f172a;
+
+}
+  .error-login{
+    color: red;
+  }
+
+  .google-btn {
+   margin-top: 15px;
+   cursor: pointer;
+   width: 100%;
+   height: 52px;
+   background-color: #4285f4;
+   border-radius: 12px;
+   box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+   .google-icon-wrapper {
+     position: absolute;
+     margin-top: 5px;
+     margin-left: 10px;
+     width: 40px;
+     height: 40px;
+     border-radius: 2px;
+     background-color: #fff;
+     border-radius: 50%;
+   }
+   .google-icon {
+     position: absolute;
+     margin-top: 11px;
+     margin-left: 11px;
+     width: 18px;
+     height: 18px;
+   }
+   .btn-text {
+     float: right;
+     margin: 15px 104px 0 0;
+     color: #fff;
+     font-size: 14px;
+     letter-spacing: 0.2px;
+   
+     
+   }
+   &:hover {
+     box-shadow: 0 0 6px #4285f4;
+   }
+   &:active {
+     background: #1669F2;
+   }
+ }
+ .loginButton_github{
+   background-color: black;
+   color: white;
+   width: 100%;
+   margin-top: 15px;
+   cursor: pointer;
+   height: 52px;
+   border-radius: 12px;
+   box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+ }
+ .loginButton_github img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   position: relative;
+   bottom: 20px;
+   left: 10px;
+ }
+ .loginButton_github span{
+   letter-spacing: 0.2px;
+   font-size: 14px;
+   position: relative;
+   left: 108px;
+   top: 12px;
+   font-weight: bold;
+ }
+ .loginButton_github:hover{
+  
+   box-shadow: 0 3px 4px 0 #101010;
+ }

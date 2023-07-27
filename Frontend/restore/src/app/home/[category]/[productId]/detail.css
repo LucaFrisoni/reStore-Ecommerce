@@ -1,0 +1,115 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.container-imagen-estados {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+.container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 246, 246);
+  width: 40rem;
+  max-width: 800px;
+  padding: 2rem;
+  margin: 1rem ;
+}
+
+.container-name-price {
+  background-color: rgb(247, 246, 246);
+  width: 40rem;
+  max-width: 800px;
+  padding: 2rem;
+  margin: 1rem ;
+}
+.container-descripcion {
+  background-color: rgb(247, 246, 246);
+  border-radius: 0.2rem;
+  width: 50%;
+  height: 350px;
+  max-width: 800px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.detail-img {
+  width: auto;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.detail-descripcion {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detail-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.detail-precio {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.detail-secciones {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.detail-select {
+  appearance: none;
+  border: 1px solid #45484b;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.detail-select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.detail-select option {
+  color: #333;
+}
+
+.detail-button-carrito {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.detail-button-carrito:hover {
+  background-color: #0056b3;
+}
+
+.container-parrafo {
+  max-width: max-content;
+  margin-bottom: 1rem;
+}
+
+.detail-descripcion-p {
+  font-size: 1rem;
+}
+
+.detail-imagen-momentanea {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 1rem;
+}

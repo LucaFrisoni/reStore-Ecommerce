@@ -1,0 +1,258 @@
+[
+	{
+		"_id": "64879b397ee453b98a4e0edc",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Samsung",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"TV": {
+				"pulgadas": 23
+			}
+		},
+		"_id": "64879c3593ee071abe1f86c4",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Samsung",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"notebook": {
+					"ram": "8gb",
+					"SSD": "256gb",
+					"Pantalla": "14 pulgadas"
+				}
+			}
+		},
+		"_id": "64879d2c6376788a4a5d2b04",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Samsung",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"notebook": {
+					"ram": "8gb",
+					"SSD": "256gb",
+					"Pantalla": "14 pulgadas"
+				}
+			}
+		},
+		"_id": "64879d3c6376788a4a5d2b06",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Toshiba",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"notebook": {
+					"ram": "8gb",
+					"SSD": "256gb",
+					"Pantalla": "14 pulgadas"
+				}
+			}
+		},
+		"_id": "64879d476376788a4a5d2b08",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"accesorios": {
+					"tipo": "Mouse"
+				}
+			}
+		},
+		"_id": "64879d816376788a4a5d2b0a",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"accesorios": {
+					"tipo": "Auricular"
+				}
+			}
+		},
+		"_id": "64879d896376788a4a5d2b0c",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"accesorios": {
+					"tipo": "Auricular"
+				}
+			}
+		},
+		"_id": "6487a0d5893a91233650cf80",
+		"name": "Notebook usada",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"accesorios": {
+					"tipo": "Auricular"
+				}
+			}
+		},
+		"_id": "6487a0e5893a91233650cf82",
+		"name": "auricular usado",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"consola": {
+					"ram": "4gb",
+					"tipo": "PLAY 4"
+				}
+			}
+		},
+		"_id": "6487a2032ecdd1aa2b035fe4",
+		"name": "auricular usado",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"consola": {
+				"ram": "8gb",
+				"tipo": "ps4"
+			}
+		},
+		"_id": "6487a2f6dea6ad058e9cf515",
+		"name": "auricular usado",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una notebook",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"consola": {
+				"ram": "8gb",
+				"tipo": "ps4"
+			}
+		},
+		"_id": "6487a303dea6ad058e9cf517",
+		"name": "PS4 CASI NUEVA",
+		"estado": "casi nuevo",
+		"precio": 23,
+		"Description": "soy una consola",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"consola": {
+				"ram": "8gb",
+				"tipo": "ps5"
+			}
+		},
+		"_id": "6487a4384429a496b8bc8cde",
+		"name": "PS5 CASI NUEVA",
+		"estado": "casi nuevo",
+		"precio": 2300000,
+		"Description": "soy una consola",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"cpu": {
+					"ram": "8gb",
+					"HDD": "200gb",
+					"VideoCard": "RTX"
+				}
+			}
+		},
+		"_id": "6487a5964429a496b8bc8ce0",
+		"name": "PS5 CASI NUEVA",
+		"estado": "casi nuevo",
+		"precio": 2300000,
+		"Description": "soy una consola",
+		"Marca": "Lenovo",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"cpu": {
+					"ram": "8gb",
+					"HDD": "200gb",
+					"VideoCard": "RTX"
+				}
+			}
+		},
+		"_id": "6487aeb6f16db7281efccdba",
+		"name": "PS5 CASI NUEVA",
+		"estado": "casi nuevo",
+		"precio": 2300000,
+		"Description": "soy una consola",
+		"Marca": "Nvidia",
+		"__v": 0
+	},
+	{
+		"subcategoria": {
+			"Computacion": {
+				"celulares": {
+					"ram": "8gb",
+					"display": "hd"
+				}
+			}
+		},
+		"_id": "6487b704f46d084d0f3d93aa",
+		"name": "XIAMOI",
+		"estado": "nuevo",
+		"precio": 2300000,
+		"Description": "celular",
+		"Marca": "Samsung",
+		"__v": 0
+	}
+]

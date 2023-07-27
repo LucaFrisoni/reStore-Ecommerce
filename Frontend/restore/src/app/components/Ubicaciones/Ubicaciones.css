@@ -1,0 +1,74 @@
+.containerUbi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardUbi {
+    height: 130px;
+    width: 300px;
+    margin: 10px;
+    background: lightgray;
+    padding: 30px;
+    position: relative; /* Agregamos posición relativa */
+  }
+  
+  .cardUbi p {
+    position: absolute; /* Cambiamos a posición absoluta */
+    left: 200px; /* Ajustamos los valores de posición según tu necesidad */
+    bottom: 40px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .cardUbi p:nth-of-type(2) {
+    bottom: 80px; /* Ajustamos la posición vertical para el segundo <p> */
+  }
+
+  .asdasda{
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+color: aliceblue;
+  }
+  .containerpppp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .asder{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:20px;
+}
+
+.asder .aaaa {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .asder .aaaa input{
+    background-color: black;
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  .eee {
+    width: 150px; /* Establece un ancho fijo para los span */
+    text-align: right;
+    margin-right: 10px;
+  }
+
+.aasd{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}

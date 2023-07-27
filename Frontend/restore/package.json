@@ -1,0 +1,36 @@
+{
+  "name": "restore",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.6.1",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "next": "13.4.5",
+    "next-auth": "^4.22.1",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-redux": "^8.0.7",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "supports-color": "^8.1.1",
+    "sweetalert2": "^11.7.12",
+    "swiper": "^9.4.1",
+    "tailwindcss": "3.3.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4"
+  }
+}

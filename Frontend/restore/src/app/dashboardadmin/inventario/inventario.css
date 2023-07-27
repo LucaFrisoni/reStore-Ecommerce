@@ -1,0 +1,8 @@
+.fila-deshabilitada {
+    background-color: #ccc;
+    color: #888; 
+  }
+
+  .fila-deshabilitada:hover{
+    background-color: #ccc;
+  }

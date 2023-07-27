@@ -1,0 +1,115 @@
+.loading-position{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container-Loading{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container-Loading .ring{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: -30px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+    border-top: 4px solid #f3f2d9;
+  animation: animate 4s linear infinite;
+  
+}
+@keyframes animate{
+ 0%{
+  transform: rotate(0deg);
+ }
+ 100%{
+  transform: rotate(360deg);
+ }
+}
+
+.container-Loading .ring::before{
+  content: '';
+  position: absolute;
+  top: 12px;
+  border-radius: 50%;
+  right: 12px;
+  width: 15px;
+  height: 15px;
+    background: #f3f2d9;
+    box-shadow: 0 0 0 5px #f3f2d933,
+    0 0 0 10px #f3f2d922,
+    0 0 0 20px #f3f2d911,
+    0 0 20px #f3f2d9,
+    0 0 50px #f3f2d9;
+}
+
+.container-Loading .ring:nth-child(2){
+  animation: animate2 4s linear infinite;
+  animation-delay: -1s;
+  border-top: 4px solid transparent;
+  border-left: 4px solid #73b2e6;
+}
+.container-Loading .ring:nth-child(2)::before{
+  content: '';
+  position: absolute;
+  top: initial;
+  bottom: 12px;
+  left: 12px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: #73b2e6;
+  box-shadow: 0 0 0 5px #73b2e633,
+  0 0 0 10px #73b2e622,
+  0 0 0 20px #73b2e611,
+  0 0 20px #73b2e6,
+  0 0 50px #73b2e6;
+}
+  @keyframes animate2{
+    0%{
+     transform: rotate(360deg);
+    }
+    100%{
+     transform: rotate(0deg);
+    }
+   }
+
+.container-Loading .ring:nth-child(3){
+  animation: animate2 4s linear infinite;
+  animation-delay: -3s;
+  position: absolute;
+  top: -66.66px;
+  border-top: 4px solid transparent;
+    border-left: 4px solid #ee8267;
+}
+.container-Loading .ring:nth-child(3)::before{
+  content: '';
+  position: absolute;
+  top: initial;
+  bottom: 12px;
+  left: 12px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+    background: #ee8267;
+    box-shadow: 0 0 0 5px #ee826733,
+    0 0 0 10px #ee826722,
+    0 0 0 20px #ee826711,
+    0 0 20px #ee8267,
+    0 0 50px #ee8267;
+}
+
+.p-loading{
+  position: absolute;
+  color: #000000;
+  font-size: 1.2rem;
+  bottom: -100px;
+  letter-spacing: 0.50em;
+  text-shadow: 0px 0px 5px #ffffff;
+}

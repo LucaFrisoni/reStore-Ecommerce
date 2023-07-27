@@ -1,0 +1,117 @@
+.container_sign {
+  padding: 40px;
+  border-radius: 20px;
+  border: 8px solid #0f172a;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 5px rgba(0, 0, 0, 0.35), inset 5px 5px 5px rgba(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1);
+    margin: 60px;
+}
+.container_sign .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.container_sign .form h2 {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 1.6em;
+}
+.container_sign .form .inputBox {
+  position: relative;
+  width: 300px;
+}
+.container_sign .form .inputBox input {
+  padding: 12px 10px 12px 48px;
+  border: none;
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: 300;
+  border-radius: 25px;
+  font-size: 1em;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 5px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+  outline: none;
+}
+.container_sign .form .inputBox span {
+  position: absolute;
+top: 2px;
+  left: 0;
+  padding: 12px 10px 12px 48px;
+  pointer-events: none;
+  font-size: 1em;
+  font-weight: 300;
+  transition: 0.5s;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container_sign .form .inputBox input:valid ~ span,
+.container_sign .form .inputBox input:focus ~ span {
+    color: #00dfc4;
+    border: 1px solid #00dfc4;
+    background: #223243;
+    transform: translateX(29px) translateY(-10px);
+    font-size: 0.6em;
+    padding: 0 8px;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+}
+.container_sign .form .inputBox input:valid ,
+.container_sign .form .inputBox input:focus{
+    border: 1px solid #00dfc4;
+}
+.container_sign .form .inputBox img {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 25px;
+  padding: 2px 0;
+  padding-right: 8px;
+  border-right: 1px solid #00dfc4;
+}
+.container_sign .form .inputBox input[type="submit"]{
+background-color:#00dfc4 ;
+color: #223243;
+padding: 10px 0;
+font-weight: 500;
+cursor: pointer;
+box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 5px rgba(0, 0, 0, 0.35), inset 5px 5px 5px rgba(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1);
+}
+.container_sign .form p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 0.75em;
+font-weight: 300;
+}
+.container_sign .form p a{
+    font-weight: 500;
+    color: white;
+}
+
+#asd{
+  font-weight: 500;
+    color: white;
+    font-size: 1em;
+}
+.container_sign .form .erorrp{
+  color:red;
+  padding: 5px;
+}
+#userCreatedMessage{
+  font-size: 16px;
+  color: green;
+}
+.inputBox select{
+background-color: #223243;
+border-radius: 4px;
+border: #00dfc4;
+position: relative;
+left: 60px;
+}
